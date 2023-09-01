@@ -1,0 +1,19 @@
+# env
+/__pychache__
+/env-3-9
+.env
+
+# testing
+/tests
+/test-docs
+
+# db
+/chromadb/embeddings
+/chromadb/test-1
+/chromadb/test-db
+
+# development
+/develop
+
+# gpt4all model
+/model/nous-hermes-13b.ggmlv3.q4_0.bin
