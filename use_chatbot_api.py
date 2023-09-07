@@ -16,8 +16,6 @@ from pydantic.error_wrappers import ValidationError
 from langchain.schema import messages_from_dict, messages_to_dict
 from langchain.memory.chat_message_histories.in_memory import ChatMessageHistory
 
-
-
 #for api
 from flask import Flask, request
 from flask_restful import Resource, Api
@@ -66,8 +64,6 @@ class ChatBot(Resource, DocumentGPT):
         #model='./model/nous-hermes-13b.ggmlv3.q4_0.bin'
         #max_tokens=2048
         #)
-
-        #initalize db
 
         #connection string for db
         connection_string = os.environ.get("mongo-db-conn-str")
